@@ -4,11 +4,11 @@
 
 #include <random>
 
-#include "headers/Population.h"
-#include "headers/GeneticTypes.h"
+#include "../include/genetic-algorithm-library-cpp/Population.h"
+#include "../include/genetic-algorithm-library-cpp/GeneticTypes.h"
 #include <variant>
-#include "headers/GeneFactory.h"
-#include "headers/GeneticAlgorithm.h"
+#include "../include/genetic-algorithm-library-cpp/GeneFactory.h"
+#include "../include/genetic-algorithm-library-cpp/GeneticAlgorithm.h"
 
 
 std::vector<Chromosome>& Population::population1() {

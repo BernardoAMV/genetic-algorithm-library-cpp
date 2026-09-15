@@ -4,13 +4,13 @@
 
 #include <cassert>
 #include <iostream>
-#include "headers/GeneticAlgorithm.h"
-#include "headers/GeneFactory.h"
-#include "headers/Population.h"
+#include "../include/genetic-algorithm-library-cpp/GeneticAlgorithm.h"
+#include "../include/genetic-algorithm-library-cpp/GeneFactory.h"
+#include "../include/genetic-algorithm-library-cpp/Population.h"
 
 GeneticAlgorithm::GeneticAlgorithm(OptimizationGoal g, CrossoverFunction cf,
-                                  std::vector<ConstraintFunction> c,
-                                  double pw) {
+                                   std::vector<ConstraintFunction> c,
+                                   double pw) {
    goal = g;
    crossover_fn = cf;
    constraints = c;

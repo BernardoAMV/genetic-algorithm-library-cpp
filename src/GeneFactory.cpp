@@ -2,8 +2,8 @@
 // Created by bernardo on 8/21/26.
 //
 
-#include "headers/GeneFactory.h"
-#include "headers/GeneticTypes.h"
+#include "../include/genetic-algorithm-library-cpp/GeneFactory.h"
+#include "../include/genetic-algorithm-library-cpp/GeneticTypes.h"
 
 Gene GeneFactory::generate_random_gene(const GeneBounds &bounds, std::mt19937& gen) {
     return std::visit([&gen] (const auto & arg) {

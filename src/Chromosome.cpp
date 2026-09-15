@@ -2,9 +2,9 @@
 // Created by bernardo on 8/21/26.
 //
 
-#include "headers/GeneticTypes.h"
-#include "headers/Chromosome.h"
-#include "headers/GeneFactory.h"
+#include "../include/genetic-algorithm-library-cpp/GeneticTypes.h"
+#include "../include/genetic-algorithm-library-cpp/Chromosome.h"
+#include "../include/genetic-algorithm-library-cpp/GeneFactory.h"
 #include <vector>
 #include <utility>
 #include <iostream>
