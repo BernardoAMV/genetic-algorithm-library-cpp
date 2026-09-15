@@ -90,8 +90,6 @@ double constraint_poz_unit5(const std::vector<double>& P) {
 }
 
 double constraint_poz_unit6(const std::vector<double>& P) {
-    // NOTA: a tabela original trazia [230, 225] (invertido). Usando [225, 230]
-    // corrigido aqui -- confira na sua fonte antes de usar no relatorio.
     return poz_violation(P[5], {{225, 230}, {365, 395}, {430, 455}});
 }
 
